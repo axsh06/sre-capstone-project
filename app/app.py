@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "SRE Capstone Project - V1 is running!"
+    return "SRE Capstone Project - V2 is running!"
 
 @app.route('/health')
 def health_check():
